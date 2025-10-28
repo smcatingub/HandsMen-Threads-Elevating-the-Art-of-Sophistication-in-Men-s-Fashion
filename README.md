@@ -1,18 +1,33 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Capstone Project — HandsMen Threads
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Overview
 
-## How Do You Plan to Deploy Your Changes?
+**HandsMen Threads** is a dynamic organization in the fashion industry embarking on a Salesforce project to revolutionize data management and enhance customer relationships.
+This project builds a robust **Salesforce data model** to store essential business data while maintaining **data integrity** and enabling seamless information flow across the organization.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Key Features
 
-## Configure Your Salesforce DX Project
+* **Automated Order Confirmations**
+  Automatically sends email updates to customers after order confirmation to strengthen engagement.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+* **Dynamic Loyalty Program**
+  Updates customer loyalty status based on purchase history to enable personalized rewards.
 
-## Read All About It
+* **Proactive Stock Alerts**
+  Triggers email notifications to the warehouse team when stock levels drop below five units.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+* **Scheduled Bulk Order Updates**
+  Runs daily at midnight to process bulk orders, update financial records, and adjust inventory levels.
+
+## What I Learned
+
+* Data Modelling
+* Data Quality
+* Lightning App Builder
+* Record-Triggered Flows
+* Apex & Apex Triggers
+* Asynchronous Apex
+
+---
+
+*Developed as part of my Salesforce Capstone Project.* ✨
